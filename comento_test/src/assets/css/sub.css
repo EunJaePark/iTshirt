@@ -1,0 +1,38 @@
+.sub_component  .created_at{
+    margin-top: 10px;
+    color: #adb5bd;
+    display: inline-block;
+}
+
+
+.contents_box{
+    margin-bottom: 40px;
+    border-color: #00c854;
+}
+.contents_box > .title{
+    -webkit-line-clamp: 2;
+}
+.contents_box > .contents{
+    -webkit-line-clamp: 3;
+}
+
+
+
+.reply_list_box > h4 > .num{
+    padding-left: 6px;
+    color: #00c854;
+}
+.reply_list_box > ul > li{
+    margin: 10px 0 30px;
+}
+.reply_list_box > ul > li > .reply_user_name{
+    width: 100%;
+    margin-bottom: 17px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e4e7;
+    display: inline-block;
+}
+.reply_list_box > ul > li  > .contents{
+    padding-right: 5%;
+    -webkit-line-clamp: 3;
+}

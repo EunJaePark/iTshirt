@@ -1,0 +1,51 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+html {font-size:100%}
+body {
+	font-size:16px;
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	line-height:1.56;
+	margin:0;
+	padding:0;
+	word-break: keep-all;
+	background-color:#fff ;
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+	color: #282c30;
+
+	/* position: fixed; */
+}
+h1, h2, h3, h4, h5, h6 {font-size:1em; font-weight: normal; }
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+em,i {font-style: normal;}
+ul, ol, li {list-style:none;}
+a:link, a:visited {text-decoration:none;}
+
+button:focus,
+input:focus,
+select:focus {
+	outline: none;
+	outline-offset:unset;
+}
+
+button,
+input,
+input + label {
+	cursor: pointer;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+
+/* 모바일 (~768px) */
+@media screen and (max-width:768px){
+	
+}

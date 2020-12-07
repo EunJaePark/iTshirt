@@ -1,0 +1,84 @@
+#app{
+    padding-bottom: 50px;
+}
+#app > *{
+    /* outline: 1px solid red;  */
+    width: 100%; 
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.btn{
+    border: 0;
+    background-color: #00c854;
+}
+.btn > span{
+    color: #fff;
+}
+
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.show{
+    display: block;
+}
+
+
+
+/* components - common - Name.vue */
+#app > .name{
+    outline: 0;
+    max-width: 100%;
+    margin: 0 auto 50px;
+    padding: 28px 0 23px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07);
+}
+#app > .name > h3{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    color: #212529;
+}
+/* ---------- Name.vue 끝 --------- */
+
+
+
+
+/* MainComponent.vue, SubComponent.vue 공통 */
+.box_border{
+    padding: 25px 30px 21px;
+    border: 1px solid #e1e4e7;
+    border-radius: 5px;
+}
+.padding_right_8per{ /* .box_border보다 뒤에 위치해야 적용됨. */
+    padding-right: 8%;
+}
+.title{ /* .list_box, .sponsored_box 공통 */
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #282c30;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display:-webkit-box;
+}
+.contents{ /* .list_box, .sponsored_box 공통 */
+    color: #495057;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display:-webkit-box;
+}
+.created_at{
+    font-size: 13px;
+    color: #495057;
+}
